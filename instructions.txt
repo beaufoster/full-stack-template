@@ -1,6 +1,9 @@
 1- Create a server.js file 'touch server.js'
+
 2- Initialize 'npm init' and enter through all questions
+
 3- Install dependencies: 'npm install' -  express, dotenv, cors, mongodb, ejs, nodemon ('npm install nodemon --save-dev')
+
 4- Require dependencies in server.js
     const express = require('express')
     const app = express()
@@ -8,5 +11,14 @@
     const MongoClient = require('mongodb').MongoClient
     require('dotenv').config
 
-5- Declare variables
-6- Connect to Mongodb- add connection string to .env file
+6- touch .gitignore
+
+7- Setup repo on github
+
+8- Initialize git repository - 'git init', 'git add .', then follow github instructions
+
+9- Declare variables
+
+10- Connect to Mongodb- add connection string to .env file with DB_STRING variable and user password from Mongodb database, setup server.js connection
+
+11-
