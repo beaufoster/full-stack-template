@@ -11,7 +11,7 @@
     const MongoClient = require('mongodb').MongoClient
     require('dotenv').config
 
-6- touch .gitignore
+6- touch .gitignore, add node_moduules and .env to this
 
 7- Setup repo on github
 
